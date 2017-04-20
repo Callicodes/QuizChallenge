@@ -10,7 +10,8 @@ var questions = [
 ];
 
 function print(message) {
-  document.write(message);
+ var outputDiv = document.getElementById('output');
+ outputDiv.innerHTML = message;
 }
 
 var correctAnswers = 0; //variable to track correct answers
